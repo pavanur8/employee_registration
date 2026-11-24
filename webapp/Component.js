@@ -24,19 +24,9 @@ sap.ui.define([
             // enable routing
             this.getRouter().initialize();
 
-            var oPersonalDeatilsModel = new JSONModel({
+            var oPersonalDeatilsModel = new JSONModel("model/personalDetails.json");
 
-                    name:"",
-                    email:"",
-                    phone:""
-            });
-
-            var oAddressDetailsModel = new JSONModel({
-
-                    street:"",
-                    city:"",
-                    pincode:""
-            }); 
+            var oAddressDetailsModel = new JSONModel("model/addressDetails.json"); 
 
             this.setModel(oPersonalDeatilsModel,"oPersonalDeatilsModel");
             this.setModel(oAddressDetailsModel,"oAddressDetailsModel");

@@ -27,19 +27,22 @@
             
              <HBox >
                 <Label text="{i18n>Name}" required="true" showColon="true" width="70px"></Label>
-                <Input placeholder="Enter Your Name" width="340px" id="nameInput"></Input>
+                <Input placeholder="Enter Your Name" width="340px" id="nameInput"
+                    value="{oPersonalDeatilsModel>/name}"></Input>
             </HBox>
 
             <!-- Email -->
             <HBox >
                 <Label text="{i18n>Email}" required="true" showColon="true" width="70px"></Label>
-                <Input placeholder="Enter Your Email" width="340px" id="emailInput"></Input>
+                <Input placeholder="Enter Your Email" width="340px" id="emailInput" 
+                   value="{oPersonalDeatilsModel>/email}"></Input>
             </HBox>
 
             <!-- Phone -->
             <HBox >
                 <Label text="{i18n>Phone}" required="true" showColon="true" width="70px"></Label>
-                <Input placeholder="Enter Your Phone Number" width="340px" id="phoneInput"></Input>
+                <Input placeholder="Enter Your Phone Number" width="340px" id="phoneInput"
+                    value="{oPersonalDeatilsModel>/phone}"></Input>
             </HBox>
 
         </items>
@@ -60,19 +63,22 @@
             <!-- Name -->
             <HBox >
                 <Label text="{i18n>Street}" required="true" showColon="true" width="70px"></Label>
-                <Input placeholder="Enter Street" width="340px" id="streetInput"></Input>
+                <Input placeholder="Enter Street" width="340px" id="streetInput"
+                    value="{oAddressDetailsModel>/street}"></Input>
             </HBox>
 
             <!-- Email -->
             <HBox >
                 <Label text="{i18n>City}" required="true" showColon="true" width="70px"></Label>
-                <Input placeholder="Enter City" width="340px" id="cityInput"></Input>
+                <Input placeholder="Enter City" width="340px" id="cityInput"
+                    value="{oAddressDetailsModel>/city}"></Input>
             </HBox>
 
             <!-- Phone -->
             <HBox >
                 <Label text="{i18n>Pincode}" required="true" showColon="true" width="70px"></Label>
-                <Input placeholder="Enter Pincode" width="340px" id="pincodeInput"></Input>
+                <Input placeholder="Enter Pincode" width="340px" id="pincodeInput"
+                        value="{oAddressDetailsModel>/phone}"></Input>
             </HBox>
             <Image
                         src="images/profile.png"

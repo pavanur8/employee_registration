@@ -44,6 +44,7 @@
                             <Text
                                 width="340px"
                                 id="nameText"
+                                text="{oPersonalDeatilsModel>/name}"
                             />
                         </HBox>
                         <!-- Email -->
@@ -56,6 +57,7 @@
                             <Text
                                 width="340px"
                                 id="emailText"
+                                text="{oPersonalDeatilsModel>/email}"
                             />
                         </HBox>
                         <!-- Phone -->
@@ -68,6 +70,7 @@
                             <Text
                                 width="340px"
                                 id="phoneText"
+                                text="{oPersonalDeatilsModel>/phone}"
                             />
                         </HBox>
                     </items>
@@ -97,6 +100,7 @@
                             <Text
                                 width="340px"
                                 id="streetText"
+                                text="{oAddressDetailsModel>/street}"
                             />
                         </HBox>
                         <!-- Email -->
@@ -109,6 +113,7 @@
                             <Text
                                 width="340px"
                                 id="cityText"
+                                text="{oAddressDetailsModel>/city}"
                             />
                         </HBox>
                         <!-- Phone -->
@@ -121,6 +126,7 @@
                             <Text
                                 width="340px"
                                 id="pincodeText"
+                                text="{oAddressDetailsModel>/pincode}"
                             />
                         </HBox>
                     </items>
