@@ -1,0 +1,29 @@
+/* Enter your custom styles here */
+/* Page background color */
+.myPageBg > section {
+    background-color:aquamarine !important;
+}
+
+/* Optional: background image instead of color */
+/*
+.myPageBg > section {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+
+/* White card look for the form */
+.myCard {
+    background-color: aqua;
+    border-radius: 3px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Round profile image */
+.myRoundImage {
+    border-radius: 30%;
+    object-fit: cover;
+}
